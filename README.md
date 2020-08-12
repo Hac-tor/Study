@@ -1,3 +1,3 @@
 # Study
 
-# Basic Blind SQL
+## Basic Blind SQL
