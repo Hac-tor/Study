@@ -5,7 +5,8 @@
 ```
 풀이: 
 ?no=1을 하면 Hello guest가 출력된다. guest의 no는 1이다.
-?no=1 or no=(admin의 no)를 하더라도 $result['id']의 값이 admin일지는 미지수이므로 ?no=0 or no=(admin의 no)를 입력해야한다. admin의 no는 2이다.
+?no=1 or no=(admin의 no)를 하더라도 $result['id']의 값이 admin일지는 미지수이므로 ?no=0 or no=(admin의 no)를 입력해야한다.
+admin의 no는 2이다.
 ```
 ```diff
 +?no=1 or no=(admin의 no)를 하였을 때  $result['id']의 값이 무조건 전자인 guest가 되는데, 앞에 있어서 우선된다고 생각한다.
