@@ -3,7 +3,7 @@
 
 #### 5thofnovmbr
 ```
-풀이: ?id=admin%27--%20
+풀이: ?id=admin'--%20
 ```
 ```diff
 + 따옴표와 주석
