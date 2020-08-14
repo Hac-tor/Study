@@ -27,5 +27,5 @@ guest의 pw를 알아내는 코드도 추가했다.
 ```
 > [파이썬코드-문자](https://github.com/5thofnovmbr/etc/blob/master/los_orge_pw.py)
 ```diff
-+ or 대신 || 쓰는게 좋을 것 같다.
++ and가 먼저다~~
 ```
