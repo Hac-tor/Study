@@ -10,6 +10,9 @@ blind SQLinjection은 참과 거짓이 어떻게 표시되는지 알아내는게
 다음 쿼리문으로 pw의 길이를 알아낼 수 있다.
 ```
 ```
+requests 모듈 사용법 : https://github.com/5thofnovmbr/etc/blob/master/requests_intro.md
+```
+```
 select id from prob_orc where id='admin' and pw=''or length(pw)=n-- {$_GET[pw]}'
 ```
 ```python
