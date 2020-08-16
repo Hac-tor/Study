@@ -20,3 +20,12 @@ admin의 no는 2이다.
 ```diff
 + 스트링 우회 기법을 배웠다.
 ```
+#### zero526
+```
+풀이: ?no=-1 union select (0x61646d696e)
+```
+```diff
++ 무작위 삽입으로 no=1을 입력하면 Hello guest가 출력되는것을 확인하여 guest에 해당하는 no가 1이라는것을 알았다
++ no에 1이 아닌 값을 입력해서 query문을 일단 거짓으로 만들고 union select로 admin을 16진수값으로 변환한 값을 추가로 입력해주어
+  query문의 select id부분에서 추가로 입력한 값을 받아오게 만들어 
+  ```
