@@ -22,5 +22,5 @@
 풀이: ?id=admin'--+
 ```
 ```diff
-+ gremlin문제와 동일하게 id에 admin을 삽입하고 ' and pw=md5('{$_GET[pw]}')"; 를 주석처리해 
++ gremlin문제와 동일하게 id에 admin을 삽입하고 ' and pw=md5('{$_GET[pw]}')"; 를 주석처리해 해결했다
 ```
