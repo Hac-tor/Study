@@ -16,3 +16,11 @@
 ```diff
 + ㄴ퍼ㅜ렄ㅍ
 ```
+
+#### TOR-s
+```
+풀이: ?pw=1' union select 'admin
+```
+```diff
++ union select 연습중!
+```
