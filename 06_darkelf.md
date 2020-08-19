@@ -17,3 +17,11 @@ or 필터링 우회로 ||을 쓸 수 있다.
 ```diff
 + pw에 -1을 대입해 query문을 무조건 거짓으로 만든 후 || 을 입력하고 이어서 id=admin (참값)을 입력해 id에 admin이 입력된채로 query문을 참으로 만들어 해결했다
 ```
+
+#### TOR-s
+```
+풀이: ?pw=1' union select 'admin
+```
+```diff
++ union select 연습중!
+```
