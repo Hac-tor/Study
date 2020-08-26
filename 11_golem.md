@@ -10,4 +10,5 @@ orge.py코드를 재활용 했다.
 > [파이썬코드](https://github.com/5thofnovmbr/etc/blob/master/los_golem.py)
 ```diff
 + 함수에 대해 미리 알았더니 빨리 풀려서 좋았다.
+- 그런데 substring 안에 substr이 있는거 아닌가?? 왜 풀리지???
 ```
