@@ -11,5 +11,5 @@ orge.py코드를 재활용 했다.
 ```diff
 + 함수에 대해 미리 알았더니 빨리 풀려서 좋았다.
 - 그런데 substring 안에 substr이 있는거 아닌가?? 왜 풀리지???
-- 문제에서 substr(를 제한해서 substring은 사용이 가능합니다.
+! 문제에서 substr(를 제한해서 substring은 사용이 가능합니다.
 ```
